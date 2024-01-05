@@ -1,0 +1,39 @@
+2. CONOCIMIENTOS DE GIT. (10%)
+Indique los comandos de git para:
+
+a. Crear un nuevo repositorio local para un proyecto llamado KSF_PRUEBA_IVR.
+    Crea repositorio local:              mkdir KSF_PRUEBA_IVR
+    Ingresamos al repositorio:           mkdir KSF_PRUEBA_IVR
+    Inicializa git para el seguimiento:  git init
+
+b. Enlazar este repositorio local con el repositorio remoto.
+    Una vez creado repositorio en https://github.com/new con el nombre KSF_PRUEBA_IVR
+    Enlazamos repositorio loca con repositorio remoto:  
+    git remote add origin https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git
+    Verificamos enlace:    git remote -v 
+
+c. Crear y cambiarse a una rama llamada IVR-{{CEDULA}}.
+    Se puede realizar de un solo comando:   git checkout -b IVR-{{CEDULA}}
+    Tabien se crear y luego se apunta a la nueva branch:
+    git branch IVR-{{CEDULA}}
+    git checkout IVR-{{CEDULA}}
+
+d. Realizar un commit (suponga que sí hay archivos modificados en su repositorio local).
+    Antes de commitear si hubiese cambios se agrega al staging area:
+    git add .
+    Luego se realiza el commit(entre comillas mensaje descriptivo el commit):       
+    git commit -m "Primer commit conocimientos git/gitHub"
+
+e. Subir el contenido del último commit del repositorio local al repositorio remoto.
+    Se pushsea se puede indicar nombre del branch del ultimo commit est caso IVR-{{CEDULA}}:
+    git push origin IVR-{{CEDULA}}
+
+f. Solicitar la fusión de la rama IVR-{{CEDULA}} con la rama master.
+    Estamos posicionados en master con, git checkout master:
+    git merge IVR-{{CEDULA}}
+
+g. Si la rama estuviera desactualizada, indique el comando para actualizar su repositorio
+local.
+    Se pushsea indicando el nombre de la rama a actualizar en est caso IVR-{{CEDULA}}
+    git push origen IVR-{{CEDULA}}
+    

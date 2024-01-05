@@ -1,0 +1,157 @@
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT
+$ ls
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT
+$ mkdir KSF_PRUEBA_IVR
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT
+$ cd KSF_PRUEBA_IVR/
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR
+$ git init
+Initialized empty Git repository in D:/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR/.git/
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git remote add origin https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git remote -v
+origin  https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git (fetch)
+origin  https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git (push)
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ touch docummentMaster.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ vim docummentMaster.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git add .
+warning: LF will be replaced by CRLF in docummentMaster.js.
+The file will have its original line endings in your working directory
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   docummentMaster.js
+
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git commit -m "Comit rama master Conciminetos git/gitHub"
+[master (root-commit) fe6bf95] Comit rama master Conciminetos git/gitHub
+ 1 file changed, 1 insertion(+)
+ create mode 100644 docummentMaster.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git branch
+* master
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git checkout -b IVR-{{CEDULA}}
+Switched to a new branch 'IVR-{{CEDULA}}'
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ touch docummetIVRCedula.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ vim docummetIVRCedula.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ touch docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ vim docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ ls
+docummentMaster.js  docummetIVRCedula.js  docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git add .
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git status
+On branch IVR-{{CEDULA}}
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   docummetIVRCedula.js
+        new file:   docummetIVRCedula2.js
+
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git commit -m "Sdo commit rama (IVR-{{CEDULA}}) conocimientos git/gitHub"
+[IVR-{{CEDULA}} 5515152] Sdo commit rama (IVR-{{CEDULA}}) conocimientos git/gitHub
+ 2 files changed, 4 insertions(+)
+ create mode 100644 docummetIVRCedula.js
+ create mode 100644 docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ ls
+docummentMaster.js  docummetIVRCedula.js  docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git checkout master
+Switched to branch 'master'
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ ls
+docummentMaster.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git switch IVR-{{CEDULA}}
+Switched to branch 'IVR-{{CEDULA}}'
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git push origin IVR-{{CEDULA}}
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 728 bytes | 728.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git
+ * [new branch]      IVR-{{CEDULA}} -> IVR-{{CEDULA}}
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
+$ git checkout master
+Switched to branch 'master'
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git merge IVR-{{CEDULA}}
+Updating fe6bf95..5515152
+Fast-forward
+ docummetIVRCedula.js  | 2 ++
+ docummetIVRCedula2.js | 2 ++
+ 2 files changed, 4 insertions(+)
+ create mode 100644 docummetIVRCedula.js
+ create mode 100644 docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ ls
+docummentMaster.js  docummetIVRCedula.js  docummetIVRCedula2.js
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git push origin IVR-{{CEDULA}}
+Everything up-to-date
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/CasseliLayza/KSF_PRUEBA_IVR/pull/new/master
+remote:
+To https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git
+ * [new branch]      master -> master
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (master)
+$ git checkout IVR-{{CEDULA}}
+Switched to branch 'IVR-{{CEDULA}}'
+
+casseliLayza@LAPTOP /d/consignaJavaDBCasseliLayza/2_CONOCIMIENTOS_DE_GIT/KSF_PRUEBA_IVR (IVR-{{CEDULA}})
