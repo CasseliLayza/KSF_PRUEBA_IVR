@@ -36,4 +36,10 @@ g. Si la rama estuviera desactualizada, indique el comando para actualizar su re
 local.
     Se pushsea indicando el nombre de la rama a actualizar en est caso IVR-{{CEDULA}}
     git push origen IVR-{{CEDULA}}
+
+
+
+----------------------
+Repo de este ejercicio:
+https://github.com/CasseliLayza/KSF_PRUEBA_IVR.git
     
